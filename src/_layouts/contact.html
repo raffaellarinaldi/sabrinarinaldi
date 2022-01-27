@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% capture encoded_email %}{{ site.email | encode_email }}{% endcapture %}
+
+<p>{{ site.strings.form.intro | replace: "SITETITLE", site.title | replace: "HERE", encoded_email }}</p>
+
+<form method="post" action="mailto:{{ site.email | encode_email }}" class="uk-form-stacked" id="contact-form" role="form" enctype="text/plain">
+    <div class="uk-margin uk-width-1-1 uk-width-1-2@m">
+        <label class="uk-form-label" for="form-name">{{ site.strings.form.name.label }}</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" type="text" id="form-name" name="name" placeholder="{{ site.strings.form.name.text }}" required>
+        </div>
+    </div>
+    <div class="uk-margin uk-width-1-1 uk-width-1-2@m">
+        <label class="uk-form-label" for="form-email">{{ site.strings.form.email.label }}</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" type="email" id="form-email" name="email" placeholder="{{ site.strings.form.email.text }}" required>
+        </div>
+    </div>
+    <div class="uk-margin uk-width-1-1 uk-width-1-2@m">
+        <label class="uk-form-label" for="form-subject">{{ site.strings.form.subject.label }}</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" type="text" id="form-subject" name="subject" placeholder="{{ site.strings.form.subject.text }}" required>
+        </div>
+    </div>
+    <div class="uk-margin uk-width-1-1 uk-width-1-2@m">
+        <label class="uk-form-label" for="form-message">{{ site.strings.form.message.label }}</label>
+        <div class="uk-form-controls">
+            <textarea class="uk-textarea" id="form-message" name="body" cols="30" rows="5" placeholder="{{ site.strings.form.message.text }}" required></textarea>
+        </div>
+    </div>
+    <div class="uk-margin uk-width-1-1">
+        <label class="uk-form-label" for="form-checkbox">{{ site.strings.form.consent.label }}</label>
+        <div class="uk-form-controls">
+            <label class="uk-text-small"><input class="uk-checkbox" type="checkbox" id="form-checkbox" required checked>&nbsp;{{ site.strings.form.consent.text | replace: "SITETITLE", site.title }}</label>
+        </div>
+    </div>
+    <input class="uk-input" type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+    <div class="uk-margin">
+        <input type="submit" role="button" class="uk-button uk-button-primary" value="{{ site.strings.form.submit }}">
+    </div>
+    {% comment %}
+    <div id="form-messages" class="uk-hidden">
+        <div class="uk-alert" id="form-message-success" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p class="uk-text-success">{{ site.strings.form.alerts.success }}</p>
+        </div>
+        <div class="uk-alert" id="form-message-danger" uk-alert>
+            <a class="uk-alert-close" uk-close></a>
+            <p class="uk-text-danger">{{ site.strings.form.alerts.danger }}</p>
+        </div>
+    </div>
+    {% endcomment %}
+</form>

@@ -1,0 +1,12 @@
+{% assign collection = include.collection | where: 'lang', site.lang | sort: 'weight' %}
+{% for item in collection %}
+<article class="uk-article">
+  <section class="uk-clearfix">
+    <h3>{{ item.title }}</h3>
+    {{ item.content }}
+  </section>
+  {% if item.author %}
+  <p class="uk-margin-remove uk-align-right" id="author">{{ item.author }}</p>
+  {% endif %}
+</article>
+{% endfor %}
