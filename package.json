@@ -1,0 +1,50 @@
+{
+	"name": "sabrinarinaldi.com",
+	"version": "2.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf ./dist ./src/assets/css/vendor ./src/static/assets/css ./src/static/assets/js",
+		"gulp": "gulp",
+		"serve:eleventy:en": "ELEVENTY_ENV=development npx @11ty/eleventy --config .eleventy.en.js --port=8080 --serve",
+		"serve:eleventy:it": "ELEVENTY_ENV=development npx @11ty/eleventy --config .eleventy.it.js --port=8081 --serve",
+		"serve:en": "npm-run-all clean gulp -p serve:eleventy:en",
+		"serve:it": "npm-run-all clean gulp -p serve:eleventy:it",
+		"build:eleventy:en": "ELEVENTY_ENV=production npx @11ty/eleventy --config .eleventy.en.js",
+		"build:eleventy:it": "ELEVENTY_ENV=production npx @11ty/eleventy --config .eleventy.it.js",
+		"build": "run-s clean gulp build:eleventy:**",
+		"deploy:en": "run-s build:eleventy:en ftp:en",
+		"deploy:it": "run-s build:eleventy:it ftp:it",
+		"deploy": "npm-run-all clean gulp --parallel deploy:**",
+		"ftp:en": "node ftp_en",
+		"ftp:it": "node ftp_it",
+		"debug": "DEBUG=* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://raffaellarinaldi@github.com/raffaellarinaldi/sabrinarinaldi.git"
+	},
+	"keywords": [],
+	"author": "Raffaella Rinaldi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/raffaellarinaldi/sabrinarinaldi/issues"
+	},
+	"homepage": "https://github.com/raffaellarinaldi/sabrinarinaldi#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.1",
+		"basic-ftp": "^4.6.6",
+		"dotenv": "^16.0.1",
+		"glob-promise": "^4.2.2",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-uglify": "^3.0.2",
+		"html-minifier": "^4.0.0",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.51.0"
+	},
+	"dependencies": {
+		"jquery": "^3.6.0",
+		"uikit": "^3.14.1"
+	}
+}
