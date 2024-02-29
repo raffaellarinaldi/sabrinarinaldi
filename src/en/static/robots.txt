@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/*
+Allow: /assets/img/*
+Disallow: /assets/img/home/*
