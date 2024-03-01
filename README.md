@@ -13,8 +13,21 @@ cd /your/preferred/project/location/
 
 Copy the code out of the GitHub repository.
 
-`git clone https://github.com/raffaellarinaldi/sabrinarinaldi.git .
-checkout`
+`git clone https://github.com/raffaellarinaldi/sabrinarinaldi.git sabrinarinaldi`
+
+Add 11tybase as submodule (only required on first setup).
+
+```
+cd sabrinarinaldi
+git submodule add https://github.com/raffaellarinaldi/11tybase.git src/common/base
+```
+
+Check for updates.
+
+```
+cd src/common/base
+git pull origin master
+```
 
 ## [https://www.sabrinarinaldi.com/](https://www.sabrinarinaldi.com/) & [https://www.sabrinarinaldi.it/](https://www.sabrinarinaldi.it/)
 

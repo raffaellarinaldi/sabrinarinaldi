@@ -4,4 +4,3 @@
 .env.it
 dist/
 node_modules/
-/src/assets/css/vendor/

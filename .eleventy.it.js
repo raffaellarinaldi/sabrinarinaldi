@@ -4,9 +4,8 @@ ftpConfig = require('./src/common/base/src/config/ftp.js')
 
 module.exports = (eleventyConfig) => {
 	require('./.eleventy')(eleventyConfig)
-	eleventyConfig.addPlugin(sassConfig, { 
-		outputPath: 'dist/it/assets/css/',
-		inputPath: 'src/assets/css/' 
+	eleventyConfig.addPlugin(sassConfig, {
+		inputPath: './src/assets/css/'
 	})
 	eleventyConfig.addPlugin(ftpConfig)
 	eleventyConfig.addPassthroughCopy({
