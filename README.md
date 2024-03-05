@@ -44,6 +44,7 @@ Open your browser and visit the local copies of the site.
 ## Build HTML Source Files
 
 To generate the HTML source files for both sites in the `dist/` directory.
+Remember to run this command to save static assets before committing to GitHub.
 
 `npm run build`
 
