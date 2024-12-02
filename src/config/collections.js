@@ -1,6 +1,6 @@
 const
-glob = require('glob-promise'),
-path = require('path')
+path = require('path'),
+glob = require('glob-promise')
 
 module.exports = (eleventyConfig) => {
 	eleventyConfig.addCollection('slideshow', async collectionApi => {
