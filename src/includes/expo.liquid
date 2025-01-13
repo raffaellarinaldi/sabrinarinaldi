@@ -1,0 +1,8 @@
+{%- for expo in expos %}
+	<h2>{{ expo.group }}</h2>
+	<ul class="uk-list uk-list-large">
+	{%- for item in expo.items %}
+		<li>{{ item }}</li>
+	{%- endfor %}
+	</ul>
+{%- endfor %}
