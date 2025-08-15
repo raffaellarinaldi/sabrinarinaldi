@@ -1,0 +1,26 @@
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push; autoplay: true">
+	<ul class="uk-slideshow-items">
+		{% for image in home.promo %}
+			{% assign formatted_image = image | replace: '-', ' ' | split: ' ' %}
+			{% assign image_path = site.url | append: 'assets/img/promo/' | append: image | append: '.jpg' %}
+			{% assign image_alt = '' %}
+			{% for word in formatted_image %}
+				{% assign capitalized_word = word | capitalize %}
+				{% assign image_alt = image_alt | append: capitalized_word %}
+				{% unless forloop.last %}
+					{% assign image_alt = image_alt | append: ' ' %}
+				{% endunless %}
+			{% endfor %}
+			<li>
+				<img src="{{ image_path }}" alt="{{ image_alt }}" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+					<h2 class="uk-margin-remove">{{ image_alt }}</h2>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+	<div class="uk-light">
+		<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+		<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div>
+</div>
