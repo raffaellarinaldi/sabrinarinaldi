@@ -1,4 +1,4 @@
-{% assign pages = collections.all | where: 'fileSlug', 'policy' %}
+{% assign pages = collections.all | where: 'fileSlug', 'policy' | where: 'lang', lang %}
 {% for page in pages %}
     <div class="uk-modal-container" id="{{ page.fileSlug | append: 'Modal' }}" uk-modal data-nosnippet>
         <div class="uk-modal-dialog">
