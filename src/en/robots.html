@@ -1,0 +1,11 @@
+---
+eleventyExcludeFromCollections: true
+layout: null
+permalink: /robots.txt
+---
+Sitemap: {{ site.productionUrl | append: 'sitemap-images.xml' }}
+
+User-agent: *
+Disallow: /assets/*
+Allow: /assets/img/*
+Disallow: /assets/img/home/*

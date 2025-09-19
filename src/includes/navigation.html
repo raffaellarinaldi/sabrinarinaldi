@@ -1,0 +1,17 @@
+{% assign menu = default.header.navigation[lang] %}
+<ul class="{{ classes }}">
+  {% for item in menu.items %}
+    {% unless item.fileSlug == 'index' %}
+      {% if item.ref == 'contact' %}
+        {% capture href %}mailto:{{ site.email }}{% endcapture %}
+      {% else %}
+        {% capture href %}{{ '/' | append: item.fileSlug | append: '/' }}{% endcapture %}
+      {% endif %}
+      <li{% if page.fileSlug == item.fileSlug %} class="uk-active"{% endif %}>
+        <a href="{{ href }}">
+          <span>{{ item.title }}</span>
+        </a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>

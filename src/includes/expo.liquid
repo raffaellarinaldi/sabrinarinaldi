@@ -1,0 +1,30 @@
+{% for expo in expos %}
+  {% if expo.group %}
+    <h2>{{ expo.group }}</h2>
+  {% endif %}
+  <ul class="uk-list uk-list-large">
+    {% for item in expo.items %}
+      <li>
+        {% if item.title %}
+          <span>{{ item.title }}</span>
+        {% endif %}
+        {% if item.location %}
+          <span>{{ item.location }}</span>
+        {% endif %}
+        {% if item.year %}
+          <span> – {{ item.year }}</span>
+        {% endif %}
+        {% if item.award %}
+          {% case item.award %}
+            {% when 'cited_piece' %}
+              – <i>{{ cited_piece }}</i>
+            {% when 'second_place' %}
+              – <i>{{ second_place }}</i>
+            {% when 'popular_jury_award' %}
+              – <i>{{ popular_jury_award }}</i>
+          {% endcase %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

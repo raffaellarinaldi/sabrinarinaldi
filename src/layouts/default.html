@@ -1,0 +1,66 @@
+{% for langCode in siteLangs %}
+  {% assign menu = default.header.navigation[langCode] %}
+  {% unless menu.lang == lang %}
+    {% for item in menu.items %}
+      {% if item.ref == ref %}
+        {% assign item_url = menu.url %}
+        {% if item.fileSlug != 'index' %}
+          {% assign item_url = item_url | append: item.fileSlug | append: '/' %}
+        {% endif %}
+        {% capture alternate_links %}
+          {{ alternate_links }}
+          <link rel="alternate" hreflang="{{ menu.lang }}" href="{{ item_url }}">
+        {% endcapture %}
+        {% capture language_links %}
+          {{ language_links }}
+          <a href="{{ item_url }}" lang="{{ menu.lang }}">{{ menu.lang }}</a>
+        {% endcapture %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+{% endfor %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+	<head>
+		<title>{{ title | append: ' — ' | append: site.title }}</title>
+		{% if eleventy.environment != 'development' %}
+			<base href="{{ site.productionUrl }}">
+		{% endif %}
+		<meta charset="{{ site.charset }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="{{ description | default: site.description }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="robots" content="{{ robots | default: 'all' }}">
+		<meta name="author" content="{{ author | default: site.author }}">
+		{{ alternate_links }}
+		<link rel="icon" href="{{ '/favicon.ico' | url }}" type="image/x-icon">
+		{% if eleventy.environment == 'development' %}
+			{% assign css = '.css' %}
+		{% else %}
+			{% assign css = '.min.css' %}
+		{% endif %}
+		<link rel="stylesheet" href="{{ '/assets/css/uikit' | append: css | url }}">
+	</head>
+	<body>
+		{% include 'header.html' %}
+		<main class="uk-container uk-margin">
+			<article class="uk-article uk-text-justify">
+				<h1 class="uk-article-title{% if ref == 'index' %} uk-hidden{% endif %}">{{ title | default: site.title }}</h1>
+				<section>
+					{{ content }}
+				</section>
+				<section class="uk-flex uk-flex-between uk-article-meta uk-margin">
+					<span>{% if ref == 'index' %}{{ default.main.updated[lang] }}{% endif %}</span>
+					<span class="uk-text-uppercase uk-padding-right">
+						{% unless eleventy.environment == 'development' %}
+							{{ language_links }}
+						{% endunless %}
+					</span>
+				</section>
+			</article>
+		</main>
+		{% include 'footer.html' %}
+		{% include 'modals.html' %}
+		<script src="{{ '/assets/js/uikit.min.js' | url }}"></script>
+	</body>
+</html>

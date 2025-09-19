@@ -1,0 +1,828 @@
+[
+   {
+      "album": {
+         "title": {
+            "en": "Wildlife",
+            "it": "Wildlife"
+         },
+         "folder": "wildlife",
+         "images": [
+            {
+               "filename": "african-encounter.jpg",
+               "title": {
+                  "en": "African Encounter",
+                  "it": "African Encounter"
+               },
+               "description": {
+                  "en": "Oil on canvas and natural material collage",
+                  "it": "Olio su tela e collage di materiali naturali"
+               },
+               "size": "80×60",
+               "weight": 24
+            },
+            {
+               "filename": "airone-cenerino.jpg",
+               "title": {
+                  "en": "Gray Heron",
+                  "it": "Airone Cenerino"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "40×60",
+               "weight": 12
+            },
+            {
+               "filename": "al-galoppo.jpg",
+               "title": {
+                  "en": "Galloping",
+                  "it": "Al Galoppo"
+               },
+               "description": {
+                  "en": "Oil on linen",
+                  "it": "Olio su tela di lino"
+               },
+               "size": "70×50",
+               "weight": 22
+            },
+            {
+               "filename": "aratura.jpg",
+               "title": {
+                  "en": "Plowing",
+                  "it": "Aratura"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 30
+            },
+            {
+               "filename": "a-testa-in-giu.jpg",
+               "title": {
+                  "en": "Upside Down",
+                  "it": "A testa in giù"
+               },
+               "description": {
+                  "en": "Oil on jute",
+                  "it": "Olio su tela di juta"
+               },
+               "size": "50×90",
+               "weight": 20
+            },
+            {
+               "filename": "bufali.jpg",
+               "title": {
+                  "en": "Buffaloes",
+                  "it": "Bufali"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 37
+            },
+            {
+               "filename": "bulldogs.jpg",
+               "title": {
+                  "en": "Bulldogs",
+                  "it": "Bulldogs"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "120×60",
+               "weight": 11
+            },
+            {
+               "filename": "camosci-nella-neve.jpg",
+               "title": {
+                  "en": "Chamois in the Snow",
+                  "it": "Camosci nella Neve"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "80×60",
+               "weight": 14
+            },
+            {
+               "filename": "cavalli.jpg",
+               "title": {
+                  "en": "Horses",
+                  "it": "Cavalli"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 31
+            },
+            {
+               "filename": "cavalli-camargue.jpg",
+               "title": {
+                  "en": "Camargue Horses",
+                  "it": "Cavalli Camargue"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 34
+            },
+            {
+               "filename": "cavallo.jpg",
+               "title": {
+                  "en": "Horse",
+                  "it": "Cavallo"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 32
+            },
+            {
+               "filename": "cavallo-al-galoppo-piccolo.jpg",
+               "title": {
+                  "en": "Galloping Horse (small)",
+                  "it": "Cavallo al Galoppo (piccolo)"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 33
+            },
+            {
+               "filename": "cavallo-haflinger-al-pascolo.jpg",
+               "title": {
+                  "en": "Haflinger Horse Grazing",
+                  "it": "Cavallo Haflinger al Pascolo"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 35
+            },
+            {
+               "filename": "cavallo-paint-al-pascolo.jpg",
+               "title": {
+                  "en": "Paint Horse Grazing",
+                  "it": "Cavallo Paint al Pascolo"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 36
+            },
+            {
+               "filename": "cavallo-sulla-spiaggia.jpg",
+               "title": {
+                  "en": "Horse on the Beach",
+                  "it": "Cavallo sulla Spiaggia"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "40×60",
+               "weight": 16
+            },
+            {
+               "filename": "delfini.jpg",
+               "title": {
+                  "en": "Dolphins",
+                  "it": "Delfini"
+               },
+               "description": {
+                  "en": "Oil on panel",
+                  "it": "Olio su tavola"
+               },
+               "size": "60×60",
+               "weight": 4
+            },
+            {
+               "filename": "elefante-banovich.jpg",
+               "title": {
+                  "en": "Banovich Elephant",
+                  "it": "Elefante Banovich"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 41
+            },
+            {
+               "filename": "elefanti-al-guado.jpg",
+               "title": {
+                  "en": "Elephants at Ford",
+                  "it": "Elefanti al Guado"
+               },
+               "description": {
+                  "en": "Oil on linen",
+                  "it": "Olio su tela di lino"
+               },
+               "size": "80×60",
+               "weight": 21
+            },
+            {
+               "filename": "five-zebras.jpg",
+               "title": {
+                  "en": "Five Zebras",
+                  "it": "Five Zebras"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 42
+            },
+            {
+               "filename": "gatto.jpg",
+               "title": {
+                  "en": "Cat",
+                  "it": "Gatto"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "70×50",
+               "weight": 7
+            },
+            {
+               "filename": "grand-canyon.jpg",
+               "title": {
+                  "en": "Grand Canyon",
+                  "it": "Grand Canyon"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "60×40",
+               "weight": 25
+            },
+            {
+               "filename": "high-on-a-mountain-shelf.jpg",
+               "title": {
+                  "en": "High on a Mountain Shelf",
+                  "it": "High on a Mountain Shelf"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "50×100",
+               "weight": 27
+            },
+            {
+               "filename": "il-vincitore.jpg",
+               "title": {
+                  "en": "The Winner",
+                  "it": "Il Vincitore"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "80×60",
+               "weight": 10
+            },
+            {
+               "filename": "impala.jpg",
+               "title": {
+                  "en": "Impalas",
+                  "it": "Impala"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 29
+            },
+            {
+               "filename": "kudu.jpg",
+               "title": {
+                  "en": "Kudus",
+                  "it": "Kudu"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "50×40",
+               "weight": 26
+            },
+            {
+               "filename": "leone-su-roccia.jpg",
+               "title": {
+                  "en": "Lion on Rock",
+                  "it": "Leone su Roccia"
+               },
+               "description": {
+                  "en": "Oil on jute",
+                  "it": "Olio su tela di juta"
+               },
+               "size": "60×50",
+               "weight": 3
+            },
+            {
+               "filename": "leopardo.jpg",
+               "title": {
+                  "en": "Leopard",
+                  "it": "Leopardo"
+               },
+               "description": {
+                  "en": "Oil on panel",
+                  "it": "Olio su tavola"
+               },
+               "size": "45×30",
+               "weight": 2
+            },
+            {
+               "filename": "leopardo-su-ramo.jpg",
+               "title": {
+                  "en": "Leopard on Branch",
+                  "it": "Leopardo su Ramo"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "80×60",
+               "weight": 6
+            },
+            {
+               "filename": "lion-on-jute.jpg",
+               "title": {
+                  "en": "Lion on Jute",
+                  "it": "Lion on Jute"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 39
+            },
+            {
+               "filename": "panda-nella-neve.jpg",
+               "title": {
+                  "en": "Panda in the Snow",
+                  "it": "Panda nella Neve"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "60×80",
+               "weight": 9
+            },
+            {
+               "filename": "peppino.jpg",
+               "title": {
+                  "en": "Peppino",
+                  "it": "Peppino"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "60×80",
+               "weight": 8
+            },
+            {
+               "filename": "presenze-indesiderate.jpg",
+               "title": {
+                  "en": "(Un)wanted Presences",
+                  "it": "Presenze (in)desiderate"
+               },
+               "description": {
+                  "en": "Oil on linen and natural material collage",
+                  "it": "Olio su tela di lino e collage di materiali naturali"
+               },
+               "size": "70×70",
+               "weight": 28
+            },
+            {
+               "filename": "puma.jpg",
+               "title": {
+                  "en": "Puma",
+                  "it": "Puma"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "40×60",
+               "weight": 13
+            },
+            {
+               "filename": "spanish-pride.jpg",
+               "title": {
+                  "en": "Spanish Pride",
+                  "it": "Spanish Pride"
+               },
+               "description": {
+                  "en": "Oil on jute",
+                  "it": "Olio su tela di juta"
+               },
+               "size": "60×60",
+               "weight": 19
+            },
+            {
+               "filename": "sua-maesta-delle-torbiere.jpg",
+               "title": {
+                  "en": "Her Majesty of the Marshes",
+                  "it": "Sua Maestà delle Torbiere"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "100×80",
+               "weight": 15
+            },
+            {
+               "filename": "testa-di-leonessa.jpg",
+               "title": {
+                  "en": "Lioness Head",
+                  "it": "Testa di Leonessa"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 38
+            },
+            {
+               "filename": "tigre.jpg",
+               "title": {
+                  "en": "Tiger",
+                  "it": "Tigre"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 10
+            },
+            {
+               "filename": "tre-zebre.jpg",
+               "title": {
+                  "en": "Three Zebras",
+                  "it": "Tre Zebre"
+               },
+               "description": {
+                  "en": "Oil on jute",
+                  "it": "Olio su tela di juta"
+               },
+               "size": "80×60",
+               "weight": 1
+            },
+            {
+               "filename": "una-galoppata-fra-i-campi.jpg",
+               "title": {
+                  "en": "A Gallop Through the Fields",
+                  "it": "Una Galoppata fra i Campi"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "70×50",
+               "weight": 18
+            },
+            {
+               "filename": "volpe.jpg",
+               "title": {
+                  "en": "Fox",
+                  "it": "Volpe"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "80×60",
+               "weight": 17
+            },
+            {
+               "filename": "waiting-for-prey.jpg",
+               "title": {
+                  "en": "Waiting for Prey",
+                  "it": "Waiting for Prey"
+               },
+               "description": {
+                  "en": "Oil on canvas and natural material collage",
+                  "it": "Olio su tela e collage di materiali naturali"
+               },
+               "size": "100×50",
+               "weight": 23
+            },
+            {
+               "filename": "zebre-in-branco.jpg",
+               "title": {
+                  "en": "Herd of Zebras",
+                  "it": "Zebre in Branco"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "100×50",
+               "weight": 5
+            }
+         ]
+      }
+   },
+   {
+      "album": {
+         "title": {
+            "en": "Portraits",
+            "it": "Ritratti"
+         },
+         "folder": "portraits",
+         "images": [
+            {
+               "filename": "camilla.jpg",
+               "title": {
+                  "en": "Camilla",
+                  "it": "Camilla"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 11
+            },
+            {
+               "filename": "chiara.jpg",
+               "title": {
+                  "en": "Chiara",
+                  "it": "Chiara"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "70×80",
+               "weight": 3
+            },
+            {
+               "filename": "daniele-1.jpg",
+               "title": {
+                  "en": "Daniele",
+                  "it": "Daniele"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "70×70",
+               "weight": 2
+            },
+            {
+               "filename": "daniele-2.jpg",
+               "title": {
+                  "en": "Daniele",
+                  "it": "Daniele"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 12
+            },
+            {
+               "filename": "giorgio.jpg",
+               "title": {
+                  "en": "Giorgio",
+                  "it": "Giorgio"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 13
+            },
+            {
+               "filename": "licia.jpg",
+               "title": {
+                  "en": "Licia",
+                  "it": "Licia"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 5
+            },
+            {
+               "filename": "luisa.jpg",
+               "title": {
+                  "en": "Luisa",
+                  "it": "Luisa"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 6
+            },
+            {
+               "filename": "marco.jpg",
+               "title": {
+                  "en": "Marco",
+                  "it": "Marco"
+               },
+               "description": {
+                  "en": "Oil on canvas",
+                  "it": "Olio su tela"
+               },
+               "size": "80×60",
+               "weight": 1
+            },
+            {
+               "filename": "mina-e-piero.jpg",
+               "title": {
+                  "en": "Mina and Piero",
+                  "it": "Mina e Piero"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 7
+            },
+            {
+               "filename": "spiaggia-1.jpg",
+               "title": {
+                  "en": "Beach",
+                  "it": "Spiaggia"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 9
+            },
+            {
+               "filename": "spiaggia-2.jpg",
+               "title": {
+                  "en": "Beach",
+                  "it": "Spiaggia"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 10
+            },
+            {
+               "filename": "valentina.jpg",
+               "title": {
+                  "en": "Valentina",
+                  "it": "Valentina"
+               },
+               "description": {
+                  "en": "N/A",
+                  "it": "N/D"
+               },
+               "size": null,
+               "weight": 8
+            }
+         ]
+      }
+   },
+   {
+      "album": {
+         "title": {
+            "en": "Sketches",
+            "it": "Bozzetti"
+         },
+         "folder": "sketches",
+         "images": [
+            {
+               "filename": "cavallo.jpg",
+               "title": {
+                  "en": "Horse",
+                  "it": "Cavallo"
+               },
+               "description": {
+                  "en": "Pen and Ink",
+                  "it": "China"
+               },
+               "size": "30×40",
+               "weight": 5
+            },
+            {
+               "filename": "gufi.jpg",
+               "title": {
+                  "en": "Owls",
+                  "it": "Gufi"
+               },
+               "description": {
+                  "en": "Pencil",
+                  "it": "Matita"
+               },
+               "size": "50×70",
+               "weight": 4
+            },
+            {
+               "filename": "rinoceronte.jpg",
+               "title": {
+                  "en": "Rhinoceros",
+                  "it": "Rinoceronte"
+               },
+               "description": {
+                  "en": "Pencil",
+                  "it": "Matita"
+               },
+               "size": "50×70",
+               "weight": 2
+            },
+            {
+               "filename": "volpe.jpg",
+               "title": {
+                  "en": "Fox",
+                  "it": "Volpe"
+               },
+               "description": {
+                  "en": "Sanguine",
+                  "it": "Sanguigna"
+               },
+               "size": "70×50",
+               "weight": 1
+            },
+            {
+               "filename": "willy.jpg",
+               "title": {
+                  "en": "Willy",
+                  "it": "Willy"
+               },
+               "description": {
+                  "en": "Pastels (color)",
+                  "it": "Pastelli colorati"
+               },
+               "size": "40×60",
+               "weight": 7
+            },
+            {
+               "filename": "zebra.jpg",
+               "title": {
+                  "en": "Zebra",
+                  "it": "Zebra"
+               },
+               "description": {
+                  "en": "Pencil",
+                  "it": "Matita"
+               },
+               "size": "40×30",
+               "weight": 3
+            },
+            {
+               "filename": "zebre.jpg",
+               "title": {
+                  "en": "Zebras",
+                  "it": "Zebre"
+               },
+               "description": {
+                  "en": "Watercolor",
+                  "it": "Acquarello"
+               },
+               "size": "40×30",
+               "weight": 6
+            }
+         ]
+      }
+   }
+]

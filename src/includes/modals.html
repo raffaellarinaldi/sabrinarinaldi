@@ -1,0 +1,13 @@
+{% assign pages = collections.all | where: 'fileSlug', 'privacy' %}
+{% for page in pages %}
+    <div class="uk-modal-container" id="{{ page.fileSlug | append: 'Modal' }}" uk-modal data-nosnippet>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-default" type="button" uk-close aria-label="{{ default.modals.aria.close[lang] }}"></button>
+            <div class="uk-modal-header">
+                <h2 class="uk-modal-title">{{ page.data.title }}</h2>
+            </div>
+            <div class="uk-modal-body" uk-overflow-auto>{{ page.templateContent }}</div>
+            <div class="uk-modal-footer uk-text-right"></div>
+        </div>
+    </div>
+{% endfor %}

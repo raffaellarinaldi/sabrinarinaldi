@@ -1,0 +1,39 @@
+{
+	"name": "sabrinarinaldi.com",
+	"version": "3.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"install": "npm i --save file:src/submodules/base",
+		"clean": "rm -rf ./dist ./node_modules ./src/submodules/*/node_modules ./src/assets/css/vendor",
+		"link": "npm link gulp gulp-rename gulp-download gulp-clean-css gulp-uglify gulp-concat gulp-replace gulp-google-webfonts",
+		"gulp": "gulp",
+		"setup": "npm-run-all -s clean install link gulp",
+		"serve:en": "ELEVENTY_ENV=development npx @11ty/eleventy --config .eleventy.en.js --port=8080 --serve",
+		"serve:it": "ELEVENTY_ENV=development npx @11ty/eleventy --config .eleventy.it.js --port=8081 --serve",
+		"serve": "npm-run-all -p serve:**",
+		"start": "npm-run-all -s setup -p serve",
+		"build:en": "ELEVENTY_ENV=production npx @11ty/eleventy --config .eleventy.en.js",
+		"build:it": "ELEVENTY_ENV=production npx @11ty/eleventy --config .eleventy.it.js",
+		"build": "npm-run-all -p build:**",
+		"release": "npm-run-all -s setup build",
+		"deploy:en": "ELEVENTY_ENV=deployment npx @11ty/eleventy --config .eleventy.en.js",
+		"deploy:it": "ELEVENTY_ENV=deployment npx @11ty/eleventy --config .eleventy.it.js",
+		"deploy": "npm link basic-ftp && npm-run-all -s setup -p deploy:**",
+		"debug": "DEBUG=* npx @11ty/eleventy"
+	},
+	"author": "Raffaella Rinaldi",
+	"license": "ISC",
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "git+https://raffaellarinaldi@github.com/raffaellarinaldi/sabrinarinaldi.git"
+	},
+	"bugs": {
+		"url": "https://github.com/raffaellarinaldi/sabrinarinaldi/issues"
+	},
+	"homepage": "https://github.com/raffaellarinaldi/sabrinarinaldi#readme",
+	"dependencies": {
+		"11tybase": "file:src/submodules/base"
+	}
+}

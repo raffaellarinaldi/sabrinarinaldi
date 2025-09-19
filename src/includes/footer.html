@@ -1,0 +1,15 @@
+<footer class="footer uk-container uk-margin">
+  <hr>
+  <div class="uk-grid-divider" uk-grid>
+    <span class="uk-grid-item-match@l uk-width-1-1 uk-width-3-4@l">
+      {% assign site_author = '<span class="uk-text-uppercase">' | append: site.author | append: '</span>' %}
+      {% copyright '2004', lang, 'all', site_author %}
+      {% assign privacy = collections.all | where: 'fileSlug', 'privacy' | first %}
+      <a class="uk-text-uppercase" href="#{{ privacy.fileSlug | append: 'Modal' }}" uk-toggle>{{ privacy.data.title }}</a><br>
+      {{ default.footer.disclaimer[lang] }}
+    </span>
+    <span class="uk-grid-item-match@l uk-width-1-1 uk-width-expand@l uk-text-right@l">
+      {{ default.footer.credits[lang] }}
+    </span>
+  </div>
+</footer>
