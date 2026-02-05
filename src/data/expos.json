@@ -1,0 +1,181 @@
+[
+    {
+        "group": "Main Expo",
+        "items": [
+            {
+                "title": "MalpensaCavalli",
+                "location": "Busto Arsizio (MI) – IT",
+                "year": 2007
+            },
+            {
+                "title": "Porte Aperte",
+                "location": "Iseo (BS) – IT",
+                "year": 2007
+            },
+            {
+                "title": "Porte Aperte",
+                "location": "Centro Culturale Clusane (BS) – IT",
+                "year": 2006
+            },
+            {
+                "title": "6ème Salon d’Art Animalier",
+                "location": "Saint Pierre lès Nemours – FR",
+                "year": 2006
+            },
+            {
+                "title": "Collettiva",
+                "location": "Centro commerciale Le Torbiere di Cortefranca (BS) – IT",
+                "year": 2005
+            },
+            {
+                "title": "Porte Aperte",
+                "location": "Centro Culturale Clusane (BS) – IT",
+                "year": 2005
+            },
+            {
+                "title": "Naturarte",
+                "location": "Museo di scienze naturali di Pordenone – IT",
+                "year": 2005
+            },
+            {
+                "title": "Wild in de Natuur 2005",
+                "location": "Enschede – NL",
+                "year": 2005
+            },
+            {
+                "title": "Collettiva",
+                "location": "Centro commerciale Le Torbiere di Cortefranca (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Porte Aperte",
+                "location": "Centro Culturale Clusane (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Pittura ed enogastronomia",
+                "location": "Colombaro di Cortefranca (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Collettiva",
+                "location": "Centro commerciale Le Torbiere di Cortefranca (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Collettiva “Le Quadre”",
+                "location": "Chiari (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Passeggiata a quattro zampe",
+                "location": "Associazione L.A.I.C.A. di Adro (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "1a Mostra Internazionale d’Arte Naturalistica",
+                "location": "Tarvisio (UD) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Pittura ed enogastronomia",
+                "location": "Cortefranca (BS) – IT",
+                "year": 2003
+            },
+            {
+                "title": "Travagliatocavalli",
+                "location": "Travagliato (BS) – IT",
+                "year": 2002
+            },
+            {
+                "title": "Festa del Cavallo",
+                "location": "Olgiate Comasco (CO) – IT",
+                "year": 2002
+            }
+        ]
+    },
+    {
+        "group": "Art Contest",
+        "items": [
+            {
+                "title": "Concorso di pittura Don A. Foppa",
+                "location": "Bergamo – IT",
+                "year": 2007
+            },
+            {
+                "title": "Premio di pittura “Il Gatto”",
+                "location": "Gatteo a Mare (FO) – IT",
+                "year": 2007
+            },
+            {
+                "title": "The Artist Magazine’s Annual Art Contest",
+                "location": "Cincinnati – USA",
+                "year": 2007
+            },
+            {
+                "title": "Margherita d’Argento",
+                "location": "Cesena – IT",
+                "year": 2004,
+                "award": "cited_piece"
+            },
+            {
+                "title": "Estemporanea Comune di Rovato",
+                "location": "Rovato (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Premio Agazzi",
+                "location": "Mapello (BG) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Premio Michelangelo Merisi",
+                "location": "Caravaggio (BG) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Biennale Osio sotto",
+                "location": "Osio Sotto (BG) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Premio di pittura “Il Gatto”",
+                "location": "Gatteo a Mare (FO) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Premio comune di Cortefranca",
+                "location": "Cortefranca (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Camignonissima",
+                "location": "Brescia – IT",
+                "year": 2004,
+                "award": "popular_jury_award"
+            },
+            {
+                "title": "Estemporanea di pittura",
+                "location": "Darfo Boario Terme (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "Comune di Paratico",
+                "location": "Paratico (BS) – IT",
+                "year": 2004,
+                "award": "cited_piece"
+            },
+            {
+                "title": "Concorso di pittura",
+                "location": "Comune di Provaglio (BS) – IT",
+                "year": 2004
+            },
+            {
+                "title": "“Il Cavallo”",
+                "location": "Olgiate Comasco (CO) – IT",
+                "year": 2002,
+                "award": "second_place"
+            }
+        ]
+    }
+]

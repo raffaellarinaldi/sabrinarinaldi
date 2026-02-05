@@ -1,0 +1,158 @@
+[
+	{
+		"group": {
+			"en": "Art & Artists",
+			"it": "Arte & Artisti"
+		},
+		"items": [
+			{
+				"link": "https://johnpicking.com",
+				"title": {
+					"en": "John Picking",
+					"it": "John Picking"
+				},
+				"description": {
+					"en": "anglo-italian painter",
+					"it": "pittore anglo-italiano"
+				}
+			}
+		]
+	},
+	{
+		"group": {
+			"en": "Activism",
+			"it": "Attivismo"
+		},
+		"items": [
+			{
+				"link": "https://wwf.ch",
+				"title": {
+					"en": "WWF",
+					"it": "WWF"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			},
+			{
+				"link": "https://greenpeace.org",
+				"title": {
+					"en": "Greenpeace",
+					"it": "Greenpeace"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			},
+			{
+				"link": "https://msf.org",
+				"title": {
+					"en": "Doctors Without Borders",
+					"it": "Medici Senza Frontiere"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			},
+			{
+				"link": "https://lav.it",
+				"title": {
+					"en": null,
+					"it": "LAV"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			},
+			{
+				"link": "https://lipu.it",
+				"title": {
+					"en": null,
+					"it": "LIPU"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			},
+			{
+				"link": "https://abolizionecaccia.it",
+				"title": {
+					"en": null,
+					"it": "Lega Abolizione Caccia"
+				},
+				"description": {
+					"en": null,
+					"it": null
+				}
+			}
+		]
+	},
+	{
+		"group": {
+			"en": null,
+			"it": "Altro"
+		},
+		"items": [
+			{
+				"link": "https://facebook.com/Aderiamo-386806237997596",
+				"title": {
+					"en": null,
+					"it": "Aderiamo"
+				},
+				"description": {
+					"en": null,
+					"it": "movimento giovanile adrense"
+				}
+			},
+			{
+				"link": "https://facebook.com/IdeaCivicaAdroTorbiato",
+				"title": {
+					"en": null,
+					"it": "Idea Civica"
+				},
+				"description": {
+					"en": null,
+					"it": "movimento politico apartitico e di informazione per Adro e la Franciacorta"
+				}
+			},
+			{
+				"link": "https://onoriobelussi.it",
+				"title": {
+					"en": null,
+					"it": "Onorio Belussi"
+				},
+				"description": {
+					"en": null,
+					"it": "contadino e scienziato della domenica"
+				}
+			},
+			{
+				"link": "https://facebook.com/scuolalavittoria",
+				"title": {
+					"en": null,
+					"it": "Fondazione Asilo Infantile La Vittoria"
+				},
+				"description": {
+					"en": null,
+					"it": "scuola materna e micronido integrato ad Adro"
+				}
+			},
+			{
+				"link": "https://associazioneanastasis.it",
+				"title": {
+					"en": null,
+					"it": "Associazione Anastasis"
+				},
+				"description": {
+					"en": null,
+					"it": "sostegno globale per pazienti oncologici ad Adro"
+				}
+			}
+		]
+	}
+]
